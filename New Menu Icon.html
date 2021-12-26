@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu Title</title>
+	<style type="text/css">
+		                   .one,.two,.three{margin: 0px;
+		                   	               padding: 0px;
+		                                    list-style: none;
+		                                    font-family: Arial, Helvetica, sans-serif;}
+		                    .one li {background: #302626;
+		                             height: 45px;
+		                             line-height: 45px;
+		                             width: 140px;
+		                             text-align: center;}
+		                     .one li a{ text-decoration: none;
+		                                display: block;
+		                                color: white; }
+		                     .one li a:hover{background: black;
+		                                     font-size: 14px;}
+		                     .one>li{border-right: solid 1px;
+		                             float: left;}
+		                     .two,.three{display: none;}
+		                     .one>li:hover .two{display: block;}
+		                     .two>li{border-top: dotted 1px;}
+		                     .two>li:hover .three{display: block;}
+		                     .three>li{border-top: solid 1px;
+		                               float: right;}
+	</style>
+</head>
+<body style="background: darkred;">
+
+
+       <ul class="one"><li><a href="#">Upload</a></li>
+           <li><a href="#">Live chat</a></li>
+           <li><a href="#">Call</a></li>
+           <li><a href="#">Search</a></li>
+           <li><a href="#">Massage</a></li>
+           <li><a href="#">More</a>
+               <ul class="two"><li><a href="#">Video</a></li>
+                   <li><a href="#">Photo</a></li>
+                   <li><a href="#">Group</a></li>
+                   <li><a href="#">Next</a>
+                        <ul class="three"><li><a href="#">Report</a></li>
+                        	<li><a href="#">Contact to us<</a></li>
+                        	<li><a href="#">Logout!</a></li>
+                        </ul></li></ul></li></ul>
+
+
+
+
+
+</body>
+</html>
